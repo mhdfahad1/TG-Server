@@ -3,11 +3,7 @@ const packages = require('../Models/PackageSchema');
 exports.Addpackage = async (req, res) => {
     console.log('inside addproject');
     const { packagename, description, image, foodimage, foodDescription, stayimage, stayDescription, activityimages, activityDescription, placename, price, custId } = req.body;
-    // console.log(packagename, description, image, foodimage,foodDescription, stayimage,stayDescription, activityimages,activityDescription, placename);
-    // console.log('Request Body:', req.body);
-    // console.log('Sending request...');
-    // ... (other code)
-    // console.log('Response:', res)
+    
     try {
         // Code that might throw an error
         const newPackage = new packages({
