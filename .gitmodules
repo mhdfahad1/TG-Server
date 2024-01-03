@@ -1,0 +1,3 @@
+[submodule "TG-Server"]
+	path = TG-Server
+	url = https://github.com/mhdfahad1/TG-Server.git
